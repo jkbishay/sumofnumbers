@@ -30,7 +30,7 @@ function sumRecursion(data) {
 }
 
 function sumTheSimpleWay(data) {
-  return _.reduce(data, function (memo, key){ return memo + key; }, 0);
+  return _.reduce(data, function (memo, key) { return memo + key; }, 0);
 }
 
 
